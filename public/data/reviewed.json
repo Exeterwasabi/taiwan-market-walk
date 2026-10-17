@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-17T15:20:32.087Z",
+  "checkedAt": "2026-10-17T15:28:46.349Z",
   "scope": "2026-10-17/2026-10-18",
   "note": "人工核對公告中的場次，不代表現場查證；每日匯入不會自動延長場次或刷新人工查核時間。",
   "events": [
@@ -434,6 +434,147 @@
       "description": "臺南市政府轉知公告明列115年10/17–18、13–18時。與11月臺灣作家節分開收錄。",
       "evidence": "臺南市政府轉知公告明列115年10/17–18、13–18時。與11月臺灣作家節分開收錄。",
       "images": []
+    },
+    {
+      "id": "review-toucheng-20261017",
+      "name": "頭城雙城職人商圈市集",
+      "city": "宜蘭縣",
+      "address": "宜蘭縣頭城鎮西五巷15號 頭圍農驛",
+      "organizer": "蘭城巷弄／宜蘭縣蘭城永續產業發展協會；頭城鎮農會協辦",
+      "source": "https://yilanlane.com.tw/2026-%E9%A0%AD%E5%9F%8E%E8%80%81%E8%A1%97%E6%96%87%E5%8C%96%E8%97%9D%E8%A1%93%E5%AD%A3-2026-toucheng-arts-festival%E3%80%8A%E9%9D%9E%E5%B8%B8%E6%97%A5%E5%B8%B8%E3%80%8B%E6%B4%BB%E5%8B%95%E7%B8%BD/",
+      "type": "假日／特色市集",
+      "sessions": [
+        {
+          "date": "2026-10-17",
+          "time": "10:00–17:00"
+        }
+      ],
+      "checkedAt": "2026-10-17T15:28:46.349Z",
+      "verification": "announcement",
+      "status": "EventScheduled",
+      "evidence": "主辦活動總覽明列頭圍農驛10/17單日市集；與10/9–11慶元宮場次及藝術季整段展期分開。",
+      "description": "主辦活動總覽明列頭圍農驛10/17單日市集；與10/9–11慶元宮場次及藝術季整段展期分開。",
+      "images": []
+    },
+    {
+      "id": "review-xiluo-20261017",
+      "name": "西螺大橋藝陣文化祭｜限定市集",
+      "city": "雲林縣",
+      "address": "雲林縣西螺鎮 西螺大橋下草坪",
+      "organizer": "雲林縣政府文化觀光處",
+      "source": "https://tour.yunlin.gov.tw/mainssl/modules/MySpace/BlogInfo.php?xmlid=1050478",
+      "type": "假日／特色市集",
+      "sessions": [
+        {
+          "date": "2026-10-17",
+          "time": "15:00起；市集結束時間未單列"
+        },
+        {
+          "date": "2026-10-18",
+          "time": "15:00起；市集結束時間未單列"
+        }
+      ],
+      "checkedAt": "2026-10-17T15:28:46.349Z",
+      "verification": "announcement",
+      "status": "EventScheduled",
+      "evidence": "官方公告明列兩日市集、地點與15時開始。DM另列舞台節目結束時間，不當作所有攤位營業終點。",
+      "description": "官方公告明列兩日市集、地點與15時開始。DM另列舞台節目結束時間，不當作所有攤位營業終點。",
+      "images": [
+        {
+          "url": "https://athena.noon360.com/noon360/yunlin/MsgInfo/836788159_20261012_09470253.jpg",
+          "name": "2026西螺藝陣文化祭｜兩日節目與市集集點DM",
+          "kind": "dm"
+        }
+      ]
+    },
+    {
+      "id": "review-liuqiu-20261017",
+      "name": "小島野台｜風格市集",
+      "city": "屏東縣",
+      "address": "屏東縣琉球鄉 小琉球停機坪",
+      "organizer": "屏東縣政府",
+      "source": "https://windpeninsula.tw/News/NewsDetail/1060?culture=en",
+      "type": "假日／特色市集",
+      "sessions": [
+        {
+          "date": "2026-10-17",
+          "time": "16:00–22:00"
+        }
+      ],
+      "checkedAt": "2026-10-17T15:28:46.349Z",
+      "verification": "announcement",
+      "status": "EventScheduled",
+      "evidence": "縣府風域半島活動公告明列115/10/17、小琉球停機坪及市集16–22時；燈飾延續到1/3不代表市集每日舉辦。",
+      "description": "縣府風域半島活動公告明列115/10/17、小琉球停機坪及市集16–22時；燈飾延續到1/3不代表市集每日舉辦。",
+      "images": []
+    },
+    {
+      "id": "review-matsu-20261017",
+      "name": "媽祖昇天祭｜媽祖賜福園遊會",
+      "city": "連江縣",
+      "address": "連江縣南竿鄉 馬祖村停車場",
+      "organizer": "連江縣政府文化處／馬祖境天后宮",
+      "source": "https://www.nankan.gov.tw/Chhtml/Detail/2221?mcid=113825",
+      "type": "假日／特色市集",
+      "sessions": [
+        {
+          "date": "2026-10-17",
+          "time": "11:00–18:00"
+        }
+      ],
+      "checkedAt": "2026-10-17T15:28:46.349Z",
+      "verification": "announcement",
+      "status": "EventScheduled",
+      "evidence": "南竿鄉公所10/15公告逐項列出10/17園遊會。10/17馬祖日報稱園遊會兩天，但公所10/18流程未列園遊會，故暫不擴充10/18，待主辦進一步確認。",
+      "description": "南竿鄉公所10/15公告逐項列出10/17園遊會。10/17馬祖日報稱園遊會兩天，但公所10/18流程未列園遊會，故暫不擴充10/18，待主辦進一步確認。",
+      "images": []
+    },
+    {
+      "id": "review-xinwawu-20261017",
+      "name": "新瓦屋永續農市集（同場13好市集、藏物市集）",
+      "city": "新竹縣",
+      "address": "新竹縣竹北市文興路一段123號 新瓦屋田邊草坪",
+      "organizer": "新瓦屋 Hello We 活動主辦公告／日日風味所",
+      "source": "https://www.accupass.com/event/2610050247021710555399",
+      "type": "農夫市集",
+      "sessions": [
+        {
+          "date": "2026-10-17",
+          "time": "市集完整營業時段未單列"
+        },
+        {
+          "date": "2026-10-18",
+          "time": "市集完整營業時段未單列"
+        }
+      ],
+      "checkedAt": "2026-10-17T15:28:46.349Z",
+      "verification": "announcement",
+      "status": "EventScheduled",
+      "evidence": "主辦ACCUPASS正文「三大特色市集｜10/17–10/18」列出永續農市集位於田邊草坪。頁首14–18:30是10/17萬聖派對時間，不套用為兩日市集營業時間。青農分享會另需報名。",
+      "description": "主辦ACCUPASS正文「三大特色市集｜10/17–10/18」列出永續農市集位於田邊草坪。頁首14–18:30是10/17萬聖派對時間，不套用為兩日市集營業時間。青農分享會另需報名。",
+      "images": []
+    },
+    {
+      "id": "review-dinghu-20261018",
+      "name": "嘉遊好步道｜頂湖特色市集",
+      "city": "嘉義縣",
+      "address": "嘉義縣阿里山鄉 頂湖自然生態園區主會場",
+      "organizer": "嘉義縣政府文化觀光局",
+      "source": "https://news.immigration.gov.tw/NewsSection/Detail/7653a7ba-7ca6-4309-94bd-71336b551c8e?category=6&lang=IN%3B",
+      "type": "假日／特色市集",
+      "sessions": [
+        {
+          "date": "2026-10-18",
+          "time": "市集營業時段未單列；健行活動15:00結束"
+        }
+      ],
+      "checkedAt": "2026-10-17T15:28:46.349Z",
+      "verification": "announcement",
+      "status": "EventScheduled",
+      "evidence": "移民署新聞網引述縣府公告，10/18活動當天設農產美食特色市集；官方報名頁確認主會場頂湖自然生態園區。健行需事先付費報名，勿將健行接駁05:10視為市集開市時間。",
+      "description": "移民署新聞網引述縣府公告，10/18活動當天設農產美食特色市集；官方報名頁確認主會場頂湖自然生態園區。健行需事先付費報名，勿將健行接駁05:10視為市集開市時間。",
+      "images": [],
+      "venueSource": "https://irunner.biji.co/2026Chiayihiking"
     }
   ]
 }
