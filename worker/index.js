@@ -59,6 +59,14 @@ export class MarketStore {
   if(path==='/status')return json(this.read('job')||{state:'idle'});
   if(path==='/sources')return json({sources:this.read('sources')||[]});
   const snapshot=this.read('snapshot');
+  if(snapshot){
+   const sources=this.read('sources')||[];
+   const fixes=snapshot.events.filter(e=>e.id.startsWith('structured:')).flatMap(e=>reconcile(snapshot.events,[e],sources.find(s=>s.url===e.source)||{}));
+   const removed=fixes.reduce((n,e)=>n+(e.replaces||[]).filter(id=>snapshot.events.some(old=>old.id===id)).length,0);
+   snapshot.events=mergeEvents(snapshot.events,fixes);
+   this.write({snapshot});
+   if(removed){const job=this.read('job');if(job){job.added=Math.max(0,job.added-removed);this.write({job});}}
+  }
   return snapshot?json({...snapshot,events:mergeEvents(snapshot.events,[])}):json({error:'尚未查詢'},404);
  }
  async alarm(){

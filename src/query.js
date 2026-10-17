@@ -40,7 +40,8 @@ export async function querySources({current,accept}){
   }
   if(job.state!=='complete')throw Error('查詢尚未完成');
   accept(await request('/events'));
-  notice.textContent=`${job.reused?'顯示一分鐘內的查詢結果':'查詢完成'}：${job.done} 個來源，新增 ${job.added} 筆；已解析 ${job.parsed}，需人工查核 ${job.review}，讀取失敗 ${job.failed}。已刪除台灣今日以前結束的活動；當日與未來活動保留。`;
+  job=await request('/status');
+  notice.textContent=`${job.reused?'顯示一分鐘內的查詢結果':'查詢完成'}：${job.done} 個來源；已解析 ${job.parsed}，需人工查核 ${job.review}，讀取失敗 ${job.failed}。已刪除台灣今日以前結束的活動；當日與未來活動保留。`;
   await showSources(true);
  }catch(error){notice.textContent=error.message+'。';}
  finally{button.disabled=false;button.textContent='查詢';}
