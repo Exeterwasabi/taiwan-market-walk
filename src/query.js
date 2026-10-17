@@ -7,6 +7,9 @@ async function request(path,options={}){
  if(!response.ok)throw Error('服務回應 '+response.status);
  return response.json();
 }
+export async function latestSnapshot(){
+ try{await config;if(!apiBase)return null;const r=await fetch(apiBase+'/events',{cache:'no-store',signal:AbortSignal.timeout(5000)});if(!r.ok)return null;const data=await r.json();return Array.isArray(data.events)?data:null;}catch{return null;}
+}
 export async function showSources(remote=false){
  const root=document.querySelector('#sources');
  try{
