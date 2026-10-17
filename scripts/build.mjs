@@ -1,0 +1,10 @@
+import {mkdir,copyFile,cp,writeFile,readFile} from 'node:fs/promises';
+await mkdir('dist',{recursive:true});
+for(const file of ['index.html','manifest.webmanifest','sw.js'])await copyFile(file,`dist/${file}`);
+for(const folder of ['src','public'])await cp(folder,`dist/${folder}`,{recursive:true});
+await writeFile('dist/.nojekyll','');
+const metadata={automaticUpdates:process.env.GITHUB_ACTIONS==='true',scheduleTaipei:'每日約 06:20',builtAt:new Date().toISOString()};
+await writeFile('dist/public/deployment.json',JSON.stringify(metadata));
+const sw=await readFile('sw.js','utf8');
+await writeFile('dist/sw.js',sw.replace('market-walk-v1',`market-walk-${Date.now()}`));
+console.log('網站已打包至 dist；僅包含公開網站檔案。');
