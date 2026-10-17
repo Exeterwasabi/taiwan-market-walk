@@ -1,0 +1,439 @@
+{
+  "checkedAt": "2026-10-17T15:20:32.087Z",
+  "scope": "2026-10-17/2026-10-18",
+  "note": "人工核對公告中的場次，不代表現場查證；每日匯入不會自動延長場次或刷新人工查核時間。",
+  "events": [
+    {
+      "id": "review-expo-20261017",
+      "name": "花博農民市集｜宜蘭紅文旦週",
+      "city": "臺北市",
+      "type": "農夫市集",
+      "address": "臺北市花博公園圓山園區長廊廣場",
+      "organizer": "台北市農會／臺北市政府產業發展局",
+      "source": "https://expofarmersmarket.taipei/news-info.php?id=809&page=1",
+      "sessions": [
+        {
+          "date": "2026-10-17",
+          "time": "10:00–18:00"
+        },
+        {
+          "date": "2026-10-18",
+          "time": "10:00–18:00"
+        }
+      ],
+      "evidence": "10/15 公告逐日列出 10/17、10/18 展售時段；活動在臺北，不是宜蘭。未延伸為每週固定開市。",
+      "checkedAt": "2026-10-17T15:18:29.940Z",
+      "images": [],
+      "description": "10/15 公告逐日列出 10/17、10/18 展售時段；活動在臺北，不是宜蘭。未延伸為每週固定開市。",
+      "verification": "announcement",
+      "status": "EventScheduled"
+    },
+    {
+      "id": "review-circle-hsinchu-20261017",
+      "name": "圈圈市集｜iFG 遠雄廣場新竹店",
+      "city": "新竹市",
+      "type": "假日／特色市集",
+      "address": "新竹市北區大雅路88號",
+      "organizer": "圈圈市集",
+      "source": "https://circle-market.com/markets/ifg-hsinchu-weekend-1017",
+      "sessions": [
+        {
+          "date": "2026-10-17",
+          "time": "12:00–20:00"
+        },
+        {
+          "date": "2026-10-18",
+          "time": "12:00–20:00"
+        }
+      ],
+      "evidence": "主辦場次頁列出 2026/10/17–18，屬公告預定場次，非現場查證。",
+      "checkedAt": "2026-10-17T15:18:29.940Z",
+      "images": [],
+      "description": "主辦場次頁列出 2026/10/17–18，屬公告預定場次，非現場查證。",
+      "verification": "announcement",
+      "status": "EventScheduled"
+    },
+    {
+      "id": "review-circle-fuzhong-20261017",
+      "name": "圈圈市集｜板橋府中萬聖節市集",
+      "city": "新北市",
+      "type": "假日／特色市集",
+      "address": "新北市板橋區黃石里北門街11號",
+      "organizer": "圈圈市集",
+      "source": "https://circle-market.com/markets/yellowstone-halloween-adventure",
+      "sessions": [
+        {
+          "date": "2026-10-17",
+          "time": "11:00–20:00"
+        }
+      ],
+      "evidence": "主辦場次頁只列 10/17；不擴充為 10/18。",
+      "checkedAt": "2026-10-17T15:18:29.940Z",
+      "images": [],
+      "description": "主辦場次頁只列 10/17；不擴充為 10/18。",
+      "verification": "announcement",
+      "status": "EventScheduled"
+    },
+    {
+      "id": "review-nchu-20261017",
+      "name": "興大有機農民市集 × 台灣豐味號",
+      "city": "臺中市",
+      "type": "農夫市集",
+      "address": "臺中市南區興大路145號 中興大學小禮堂前廣場",
+      "organizer": "農糧署公告／興大有機農民市集",
+      "source": "https://www.afa.gov.tw/cht/index.php?code=list&ids=3685",
+      "sessions": [
+        {
+          "date": "2026-10-17",
+          "time": "料理秀 09:00；市集完整營業時段未提供"
+        }
+      ],
+      "evidence": "農糧署活動表列 115/10/17，料理秀上午9時；不以料理秀時間推測整場營業時間。",
+      "checkedAt": "2026-10-17T15:18:29.940Z",
+      "images": [],
+      "description": "農糧署活動表列 115/10/17，料理秀上午9時；不以料理秀時間推測整場營業時間。",
+      "verification": "announcement",
+      "status": "EventScheduled"
+    },
+    {
+      "id": "review-wude-202610",
+      "name": "南投武德市集",
+      "city": "南投縣",
+      "type": "假日／特色市集",
+      "address": "南投縣南投市彰南路二段65號 南投縣文化園區",
+      "organizer": "南投縣政府文化局",
+      "source": "https://www.nantou.gov.tw/big5/information-news-1-show.php?cid=1073&dptid=376480000&mcid=168464&month=09&year=2026",
+      "sessions": [
+        {
+          "date": "2026-10-17",
+          "time": "10:00–16:00"
+        },
+        {
+          "date": "2026-10-18",
+          "time": "10:00–16:00"
+        },
+        {
+          "date": "2026-10-24",
+          "time": "10:00–16:00"
+        },
+        {
+          "date": "2026-10-25",
+          "time": "10:00–16:00"
+        },
+        {
+          "date": "2026-10-26",
+          "time": "10:00–16:00"
+        },
+        {
+          "date": "2026-10-31",
+          "time": "10:00–16:00"
+        },
+        {
+          "date": "2026-11-01",
+          "time": "10:00–16:00"
+        }
+      ],
+      "evidence": "縣府明列 10/17–18、10/24–26、10/31–11/1；僅收錄公告中的日期，平日不視為開市。",
+      "checkedAt": "2026-10-17T15:18:29.940Z",
+      "images": [],
+      "description": "縣府明列 10/17–18、10/24–26、10/31–11/1；僅收錄公告中的日期，平日不視為開市。",
+      "verification": "announcement",
+      "status": "EventScheduled"
+    },
+    {
+      "id": "review-hualien-20261017",
+      "name": "花蓮農好．映見美好｜映見日常",
+      "city": "花蓮縣",
+      "type": "農夫市集",
+      "address": "花蓮縣 曼波海洋生態休閒園區",
+      "organizer": "花蓮縣政府農業處",
+      "source": "https://hualien.travel/zh-tw/news/994/",
+      "sessions": [
+        {
+          "date": "2026-10-17",
+          "time": "公告未提供完整時段"
+        },
+        {
+          "date": "2026-10-18",
+          "time": "公告未提供完整時段"
+        }
+      ],
+      "evidence": "縣府公告第三場為 10/17–18，地點曼波海洋生態休閒園區；公告未列完整時段與門牌。",
+      "checkedAt": "2026-10-17T15:18:29.940Z",
+      "images": [],
+      "description": "縣府公告第三場為 10/17–18，地點曼波海洋生態休閒園區；公告未列完整時段與門牌。",
+      "verification": "announcement",
+      "status": "EventScheduled"
+    },
+    {
+      "id": "review-liugui-20261017",
+      "name": "六龜好集市－里山溪畔野森活",
+      "city": "高雄市",
+      "type": "假日／特色市集",
+      "address": "高雄市六龜區十八羅漢山遊憩區",
+      "organizer": "林業保育署屏東分署及合作單位",
+      "source": "https://www.forest.gov.tw/policies/news/0079416",
+      "sessions": [
+        {
+          "date": "2026-10-17",
+          "time": "公告未提供完整時段"
+        },
+        {
+          "date": "2026-10-18",
+          "time": "公告未提供完整時段"
+        }
+      ],
+      "evidence": "林業保育署 10/13 公告明列 115/10/17–18，含風土農食與工藝市集；公告未列營業時間。",
+      "checkedAt": "2026-10-17T15:18:29.940Z",
+      "images": [],
+      "description": "林業保育署 10/13 公告明列 115/10/17–18，含風土農食與工藝市集；公告未列營業時間。",
+      "verification": "announcement",
+      "status": "EventScheduled"
+    },
+    {
+      "id": "review-px-neihu-202610",
+      "name": "大全聯秋日小農市集｜內湖店",
+      "city": "臺北市",
+      "type": "農夫市集",
+      "address": "臺北市內湖區舊宗路一段188號",
+      "organizer": "大全聯 MEGA PXMART",
+      "source": "https://www.pxmart.com.tw/mega/campaign/latest-campaign/小農市集",
+      "sessions": [
+        {
+          "date": "2026-10-17",
+          "time": "11:00–19:00"
+        },
+        {
+          "date": "2026-10-18",
+          "time": "11:00–19:00"
+        },
+        {
+          "date": "2026-10-24",
+          "time": "11:00–19:00"
+        },
+        {
+          "date": "2026-10-25",
+          "time": "11:00–19:00"
+        }
+      ],
+      "evidence": "主辦公告列出兩個週末與四家門市。DIY 海報確認各店兩週活動輪替；不是 10/17–25 每天舉辦。",
+      "checkedAt": "2026-10-17T15:18:29.940Z",
+      "images": [
+        {
+          "url": "https://www.pxmart.com.tw/mega/uploads/02_1_5fec7beddd.webp",
+          "name": "十月小農市集 DIY 場次 DM（主辦原圖）",
+          "kind": "dm"
+        }
+      ],
+      "description": "主辦公告列出兩個週末與四家門市。DIY 海報確認各店兩週活動輪替；不是 10/17–25 每天舉辦。",
+      "verification": "announcement",
+      "status": "EventScheduled",
+      "venueSource": "https://www.pxmart.com.tw/mega/store-locations/store-list/pxmart-mega/內湖店"
+    },
+    {
+      "id": "review-px-yuanlin-202610",
+      "name": "大全聯秋日小農市集｜員林店",
+      "city": "彰化縣",
+      "type": "農夫市集",
+      "address": "彰化縣埔心鄉瓦南村中山路319號",
+      "organizer": "大全聯 MEGA PXMART",
+      "source": "https://www.pxmart.com.tw/mega/campaign/latest-campaign/小農市集",
+      "sessions": [
+        {
+          "date": "2026-10-17",
+          "time": "11:00–19:00"
+        },
+        {
+          "date": "2026-10-18",
+          "time": "11:00–19:00"
+        },
+        {
+          "date": "2026-10-24",
+          "time": "11:00–19:00"
+        },
+        {
+          "date": "2026-10-25",
+          "time": "11:00–19:00"
+        }
+      ],
+      "evidence": "主辦公告列出兩個週末與四家門市。DIY 海報確認各店兩週活動輪替；不是 10/17–25 每天舉辦。",
+      "checkedAt": "2026-10-17T15:18:29.940Z",
+      "images": [
+        {
+          "url": "https://www.pxmart.com.tw/mega/uploads/02_1_5fec7beddd.webp",
+          "name": "十月小農市集 DIY 場次 DM（主辦原圖）",
+          "kind": "dm"
+        }
+      ],
+      "description": "主辦公告列出兩個週末與四家門市。DIY 海報確認各店兩週活動輪替；不是 10/17–25 每天舉辦。",
+      "verification": "announcement",
+      "status": "EventScheduled",
+      "venueSource": "https://www.pxmart.com.tw/mega/store-locations/store-list/pxmart-mega/員林店"
+    },
+    {
+      "id": "review-px-zhongli-202610",
+      "name": "大全聯秋日小農市集｜中壢店",
+      "city": "桃園市",
+      "type": "農夫市集",
+      "address": "桃園市中壢區中北路2段468號",
+      "organizer": "大全聯 MEGA PXMART",
+      "source": "https://www.pxmart.com.tw/mega/campaign/latest-campaign/小農市集",
+      "sessions": [
+        {
+          "date": "2026-10-17",
+          "time": "11:00–19:00"
+        },
+        {
+          "date": "2026-10-18",
+          "time": "11:00–19:00"
+        },
+        {
+          "date": "2026-10-24",
+          "time": "11:00–19:00"
+        },
+        {
+          "date": "2026-10-25",
+          "time": "11:00–19:00"
+        }
+      ],
+      "evidence": "主辦公告列出兩個週末與四家門市。DIY 海報確認各店兩週活動輪替；不是 10/17–25 每天舉辦。",
+      "checkedAt": "2026-10-17T15:18:29.940Z",
+      "images": [
+        {
+          "url": "https://www.pxmart.com.tw/mega/uploads/02_1_5fec7beddd.webp",
+          "name": "十月小農市集 DIY 場次 DM（主辦原圖）",
+          "kind": "dm"
+        }
+      ],
+      "description": "主辦公告列出兩個週末與四家門市。DIY 海報確認各店兩週活動輪替；不是 10/17–25 每天舉辦。",
+      "verification": "announcement",
+      "status": "EventScheduled",
+      "venueSource": "https://www.pxmart.com.tw/mega/store-locations/store-list/pxmart-mega/中壢店"
+    },
+    {
+      "id": "review-px-chiayi-202610",
+      "name": "大全聯秋日小農市集｜嘉義店",
+      "city": "嘉義市",
+      "type": "農夫市集",
+      "address": "嘉義市西區博愛路2段281號",
+      "organizer": "大全聯 MEGA PXMART",
+      "source": "https://www.pxmart.com.tw/mega/campaign/latest-campaign/小農市集",
+      "sessions": [
+        {
+          "date": "2026-10-17",
+          "time": "11:00–19:00"
+        },
+        {
+          "date": "2026-10-18",
+          "time": "11:00–19:00"
+        },
+        {
+          "date": "2026-10-24",
+          "time": "11:00–19:00"
+        },
+        {
+          "date": "2026-10-25",
+          "time": "11:00–19:00"
+        }
+      ],
+      "evidence": "主辦公告列出兩個週末與四家門市。DIY 海報確認各店兩週活動輪替；不是 10/17–25 每天舉辦。",
+      "checkedAt": "2026-10-17T15:18:29.940Z",
+      "images": [
+        {
+          "url": "https://www.pxmart.com.tw/mega/uploads/02_1_5fec7beddd.webp",
+          "name": "十月小農市集 DIY 場次 DM（主辦原圖）",
+          "kind": "dm"
+        }
+      ],
+      "description": "主辦公告列出兩個週末與四家門市。DIY 海報確認各店兩週活動輪替；不是 10/17–25 每天舉辦。",
+      "verification": "announcement",
+      "status": "EventScheduled",
+      "venueSource": "https://www.pxmart.com.tw/mega/store-locations/store-list/pxmart-mega/嘉義店"
+    },
+    {
+      "id": "Event_371020000A_004496",
+      "name": "青年島生．創業成果市集",
+      "city": "金門縣",
+      "type": "假日／特色市集",
+      "address": "金門縣金沙鎮沙美商圈 金沙戲院前",
+      "organizer": "來源未提供",
+      "source": "https://media.taiwan.net.tw/zh-tw/portal/travel?Keyword=%E9%9D%92%E5%B9%B4%E5%B3%B6%E7%94%9F%EF%BC%8E%E5%89%B5%E6%A5%AD%E6%88%90%E6%9E%9C%E5%B8%82%E9%9B%86",
+      "sessions": [
+        {
+          "date": "2026-10-17",
+          "time": "15:00–20:00"
+        },
+        {
+          "date": "2026-10-18",
+          "time": "15:00–20:00"
+        }
+      ],
+      "evidence": "官方活動描述明列 10/17、10/18 每日15–20時；以描述校正資料欄位的10/16起日。",
+      "checkedAt": "2026-10-17T15:18:29.940Z",
+      "images": [
+        {
+          "url": "https://kinmen.travel/image/48464/640x480",
+          "name": "青年島生．創業成果市集"
+        }
+      ],
+      "description": "官方活動描述明列 10/17、10/18 每日15–20時；以描述校正資料欄位的10/16起日。",
+      "verification": "announcement",
+      "status": "EventScheduled",
+      "replaces": [
+        "Event_371020000A_004496"
+      ]
+    },
+    {
+      "id": "review-yuanli-20261017",
+      "name": "苑裡稻浪生活節｜農產美食市集",
+      "city": "苗栗縣",
+      "address": "苗栗縣苑裡鎮彎麗路98號 苑裡愛情果園對面草地",
+      "organizer": "苑裡鎮農會",
+      "source": "https://ezgo.ardswc.gov.tw/zh-tw/event/5445/",
+      "type": "假日／特色市集",
+      "sessions": [
+        {
+          "date": "2026-10-17",
+          "time": "10:00–17:00"
+        }
+      ],
+      "checkedAt": "2026-10-17T15:20:32.086Z",
+      "verification": "announcement",
+      "status": "EventScheduled",
+      "description": "農業易遊網引述苑裡鎮農會公告，市集為10/17；集章兌換到10/18，不代表市集延長一天。",
+      "evidence": "農業易遊網引述苑裡鎮農會公告，市集為10/17；集章兌換到10/18，不代表市集延長一天。",
+      "images": [
+        {
+          "url": "https://ezgo.ardswc.gov.tw/_api/Image/44507/?r=1791887095341",
+          "name": "苑裡鎮農會集章活動公告圖片（非市集延長公告）",
+          "kind": "image"
+        }
+      ]
+    },
+    {
+      "id": "review-nmtl-20261017",
+      "name": "文學暢秋日｜臺文館館慶市集",
+      "city": "臺南市",
+      "address": "臺南市中西區中正路（湯德章大道）1號 國立臺灣文學館及周邊",
+      "organizer": "國立臺灣文學館",
+      "source": "https://yc.tainan.gov.tw/News_Content.aspx?n=42321&s=8839768",
+      "type": "假日／特色市集",
+      "sessions": [
+        {
+          "date": "2026-10-17",
+          "time": "13:00–18:00"
+        },
+        {
+          "date": "2026-10-18",
+          "time": "13:00–18:00"
+        }
+      ],
+      "checkedAt": "2026-10-17T15:20:32.087Z",
+      "verification": "announcement",
+      "status": "EventScheduled",
+      "description": "臺南市政府轉知公告明列115年10/17–18、13–18時。與11月臺灣作家節分開收錄。",
+      "evidence": "臺南市政府轉知公告明列115年10/17–18、13–18時。與11月臺灣作家節分開收錄。",
+      "images": []
+    }
+  ]
+}

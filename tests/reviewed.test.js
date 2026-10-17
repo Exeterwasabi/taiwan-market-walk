@@ -1,0 +1,7 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';import {readFileSync} from 'node:fs';
+import {filterEvents,isAnnounced} from '../src/domain.js';import {mergeReviewed} from '../scripts/reviewed.mjs';
+const reviewed=JSON.parse(readFileSync('public/data/reviewed.json','utf8').replace(/^\uFEFF/,''));
+test('explicit sessions do not fill intervening weekdays or unlisted Sunday',()=>{const events=mergeReviewed([],reviewed);assert.equal(filterEvents(events,{start:'2026-10-20',end:'2026-10-20'}).length,0);assert.equal(filterEvents(events,{start:'2026-10-18',end:'2026-10-18'}).some(e=>e.id==='review-circle-fuzhong-20261017'),false);});
+test('review overrides original record and preserves actual review timestamp',()=>{const e=reviewed.events[0];const result=mergeReviewed([{...e,description:'old'}],{events:[e]});assert.equal(result.length,1);assert.equal(result[0].checkedAt,e.checkedAt);assert.equal(result[0].start,'2026-10-17');});
+test('candidate and cancelled events are excluded from announcement-only results',()=>{const e=mergeReviewed([],reviewed)[0];assert.equal(isAnnounced({...e,status:'EventCancelled'}),false);assert.equal(filterEvents([{...e,status:'EventPostponed'},{...e,verification:'candidate'}],{verifiedOnly:true}).length,0);});
+test('invalid curated data fails rather than silently publishing',()=>{assert.throws(()=>mergeReviewed([],{events:[{...reviewed.events[0],sessions:[{date:'2026-02-30'}]}]}));assert.throws(()=>mergeReviewed([],{events:[reviewed.events[0],reviewed.events[0]]}));});

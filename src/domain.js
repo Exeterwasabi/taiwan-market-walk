@@ -6,7 +6,10 @@ export function weekend(day = taipeiDate()) {
   const start = d.toISOString().slice(0,10); d.setUTCDate(d.getUTCDate()+1);
   return {start,end:d.toISOString().slice(0,10)};
 }
-export function filterEvents(events,{city='',type='',query='',start='',end=''}={}) {
-  return events.filter(e=>(!city||e.city===city)&&(!type||e.type===type)&&(!start||e.end>=start)&&(!end||e.start<=end)&&(!query||`${e.name} ${e.address} ${e.description}`.includes(query))).sort((a,b)=>Number(!!a.needsCheck)-Number(!!b.needsCheck)||a.start.localeCompare(b.start));
+export function filterEvents(events,{city='',type='',query='',start='',end='',verifiedOnly=false}={}) {
+  return events.filter(e=>(!city||e.city===city)&&(!type||e.type===type)&&(!verifiedOnly||isAnnounced(e))&&(e.sessions?e.sessions.some(s=>(!start||s.date>=start)&&(!end||s.date<=end)):(!start||e.end>=start)&&(!end||e.start<=end))&&(!query||`${e.name} ${e.address} ${e.description}`.includes(query))).sort((a,b)=>Number(!!a.needsCheck)-Number(!!b.needsCheck)||a.start.localeCompare(b.start));
 }
 export function safeUrl(value) { try { const u=new URL(value);return ['http:','https:'].includes(u.protocol)?u.href:''; } catch{return '';} }
+
+export const isAnnounced=e=>e.verification==='announcement'&&Array.isArray(e.sessions)&&e.sessions.length>0&&!['EventCancelled','EventPostponed'].includes(e.status);
+
