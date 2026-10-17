@@ -3,6 +3,7 @@ import {taipeiDate} from '../src/domain.js';
 import {extractEvents} from './extract.js';
 import {readEventZip} from './zip.js';
 import {normalize} from '../scripts/normalize.mjs';
+import {reconcile} from './reconcile.js';
 const site='https://exeterwasabi.github.io/taiwan-market-walk/';
 const allowed=new Set(['https://exeterwasabi.github.io','http://localhost:4173']);
 const json=(value,status=200)=>Response.json(value,{status,headers:{'Cache-Control':'no-store'}});
@@ -88,10 +89,7 @@ export class MarketStore {
      const bytes=new Uint8Array(length);let offset=0;for(const chunk of chunks){bytes.set(chunk,offset);offset+=chunk.length;}
      const html=new TextDecoder().decode(bytes);
      const digest=Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',bytes)),b=>b.toString(16).padStart(2,'0')).join('');
-     const incoming=extractEvents(html,source,checkedAt).map(e=>{
-      const old=snapshot.events.find(x=>x.source===e.source&&x.name===e.name&&x.start===e.start);
-      return old?{...e,id:old.id}:e;
-     });
+     const incoming=reconcile(snapshot.events,extractEvents(html,source,checkedAt),source);
      const before=new Set(snapshot.events.map(e=>e.id));
      snapshot.events=mergeEvents(snapshot.events,incoming,taipeiDate());
      job.added+=snapshot.events.filter(e=>!before.has(e.id)).length;
