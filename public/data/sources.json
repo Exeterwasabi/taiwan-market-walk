@@ -2485,6 +2485,210 @@
         "嘉義縣"
       ],
       "adapter": "announcement"
+    },
+    {
+      "id": "source-208",
+      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel?Keyword=%E5%BE%8C%E6%B5%A6%E8%8D%89%E5%9C%B0%E9%87%8E%E9%A4%90%E9%9F%B3%E6%A8%82%E7%AF%80",
+      "label": "來源未提供",
+      "eventIds": [
+        "Event_371020000A_004242"
+      ],
+      "cities": [
+        "金門縣"
+      ],
+      "adapter": "announcement"
+    },
+    {
+      "id": "source-209",
+      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel?Keyword=2026%E9%88%B4%E8%98%AD%E9%80%9A%E6%95%A3%E6%AD%A5%E7%B4%8D%E6%B6%BC%E6%9C%83",
+      "label": "來源未提供",
+      "eventIds": [
+        "Event_387000000A_010434"
+      ],
+      "cities": [
+        "臺中市"
+      ],
+      "adapter": "announcement"
+    },
+    {
+      "id": "source-210",
+      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel?Keyword=2026%E5%A4%A7%E6%96%B0%E7%87%9F%E5%98%89%E5%B9%B4%E8%8F%AF",
+      "label": "來源未提供",
+      "eventIds": [
+        "Event_395000000A_008121"
+      ],
+      "cities": [
+        "臺南市"
+      ],
+      "adapter": "announcement"
+    },
+    {
+      "id": "source-211",
+      "url": "https://www.klzz.klcg.gov.tw/tw/klzz/956-323601.html",
+      "label": "基隆市文化觀光局",
+      "eventIds": [
+        "review-keelung-community-20261024"
+      ],
+      "cities": [
+        "基隆市"
+      ],
+      "adapter": "announcement"
+    },
+    {
+      "id": "source-212",
+      "url": "https://circle-market.com/markets/market-20261003",
+      "label": "圈圈市集",
+      "eventIds": [
+        "review-circle-dazhi-20261024"
+      ],
+      "cities": [
+        "臺北市"
+      ],
+      "adapter": "announcement"
+    },
+    {
+      "id": "source-213",
+      "url": "https://circle-market.com/markets/ifg-hsinchu-halloween",
+      "label": "圈圈市集",
+      "eventIds": [
+        "review-circle-ifg-20261024"
+      ],
+      "cities": [
+        "新竹市"
+      ],
+      "adapter": "announcement"
+    },
+    {
+      "id": "source-214",
+      "url": "https://circle-market.com/markets/market-20261024",
+      "label": "圈圈市集",
+      "eventIds": [
+        "review-circle-rakuten-20261024"
+      ],
+      "cities": [
+        "桃園市"
+      ],
+      "adapter": "announcement"
+    },
+    {
+      "id": "source-215",
+      "url": "https://ezgo.ardswc.gov.tw/zh-tw/event/5470/",
+      "label": "高雄市政府農業局",
+      "eventIds": [
+        "review-shennong-20261024"
+      ],
+      "cities": [
+        "高雄市"
+      ],
+      "adapter": "announcement"
+    },
+    {
+      "id": "source-216",
+      "url": "https://hualien.travel/zh-tw/news/1022/",
+      "label": "花蓮縣政府",
+      "eventIds": [
+        "review-hualien-farm-20261024"
+      ],
+      "cities": [
+        "花蓮縣"
+      ],
+      "adapter": "announcement"
+    },
+    {
+      "id": "source-217",
+      "url": "https://financeweb.yunlin.gov.tw/News_Content.aspx?n=783&s=610422",
+      "label": "雲林縣政府／東勢鄉公所轉知",
+      "eventIds": [
+        "review-yunlin-community-20261024"
+      ],
+      "cities": [
+        "雲林縣"
+      ],
+      "adapter": "announcement"
+    },
+    {
+      "id": "source-218",
+      "url": "https://www.taichung.travel/zh-tw/event/activitydetail/10434",
+      "label": "臺中觀光旅遊網活動公告",
+      "eventIds": [
+        "review-suzuran-20261024"
+      ],
+      "cities": [
+        "臺中市"
+      ],
+      "adapter": "announcement"
+    },
+    {
+      "id": "source-219",
+      "url": "https://www.ntpc.gov.tw/ch/home.jsp?dataserno=3cdc8851a37a994cf095ad345fad9fa0&id=e8ca970cde5c00e1",
+      "label": "新北市政府農業局／雙溪區公所",
+      "eventIds": [
+        "review-shuangxi-yam-20261024"
+      ],
+      "cities": [
+        "新北市"
+      ],
+      "adapter": "announcement"
+    },
+    {
+      "id": "source-220",
+      "url": "https://jiali722.tainan.gov.tw/News_Content.aspx?n=7186&s=8820271&sms=10958",
+      "label": "屏東縣潮州鎮公所（佳里區公所轉知）",
+      "eventIds": [
+        "review-chaoyi-20261024"
+      ],
+      "cities": [
+        "屏東縣"
+      ],
+      "adapter": "announcement"
+    },
+    {
+      "id": "source-221",
+      "url": "https://fae.moa.gov.tw/theme_data.php?id=33288&sub_theme=event_info&theme=news",
+      "label": "寶山鄉農會／新竹縣政府公告",
+      "eventIds": [
+        "review-baoshan-20261024"
+      ],
+      "cities": [
+        "新竹縣"
+      ],
+      "adapter": "announcement"
+    },
+    {
+      "id": "source-222",
+      "url": "https://www.kmdn.gov.tw/1117/1271/1272/591097/",
+      "label": "金門縣文化局",
+      "eventIds": [
+        "review-kinmen-culture-20261024"
+      ],
+      "cities": [
+        "金門縣"
+      ],
+      "adapter": "announcement"
+    },
+    {
+      "id": "source-223",
+      "url": "https://tour.taitung.gov.tw/zh-tw/event-calendar/details/6459",
+      "label": "臺東縣政府",
+      "eventIds": [
+        "Event_376540000A_006459"
+      ],
+      "cities": [
+        "臺東縣"
+      ],
+      "adapter": "announcement"
+    },
+    {
+      "id": "source-224",
+      "url": "https://web.tainan.gov.tw/Nation/News_Content.aspx?n=933&s=8842874&sms=9749",
+      "label": "臺南市政府原住民族事務委員會",
+      "eventIds": [
+        "Event_395000000A_008099"
+      ],
+      "cities": [
+        "臺南市"
+      ],
+      "adapter": "announcement"
     }
   ]
 }
