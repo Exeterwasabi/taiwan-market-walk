@@ -2737,6 +2737,18 @@
         "臺南市"
       ],
       "adapter": "announcement"
+    },
+    {
+      "id": "source-229",
+      "url": "https://slowfoodtaitung.tw/festival",
+      "label": "臺東縣政府／慢食台東",
+      "eventIds": [
+        "review-slowfood-taitung-20261025"
+      ],
+      "cities": [
+        "臺東縣"
+      ],
+      "adapter": "announcement"
     }
   ]
 }
