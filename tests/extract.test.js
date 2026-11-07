@@ -1,11 +1,24 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {extractEvents} from '../worker/extract.js';
-import {reconcile} from '../worker/reconcile.js';
+import {reconcile,mergePublished} from '../worker/reconcile.js';
 import {mergeEvents} from '../src/merge.js';
 const source={id:'official',url:'https://example.org/market',label:'主辦'};
 const item={'@type':'Event',name:'小農市集',startDate:'2026-10-18',location:{address:{addressRegion:'台北市',streetAddress:'測試路1號'}}};
 const html=value=>`<script type="application/ld+json">${JSON.stringify(value)}</script>`;
+test('automatic festival hours cannot overwrite reviewed market hours or human check time',()=>{
+ const old={id:'review-market',source:source.url,city:'花蓮縣',verification:'announcement',evidence:'市場18:30開始',checkedAt:'2026-11-04T03:00:00Z',status:'EventScheduled',sessions:[{date:'2026-11-07',time:'18:30開始'}],images:[]};
+ const event={...old,id:'structured:event',evidence:undefined,checkedAt:'2026-11-07T03:00:00Z',updated:'2026-11-07T03:00:00Z',sessions:[{date:'2026-11-07',time:'18:00–20:00'}]};
+ const [merged]=reconcile([old],[event],{eventIds:[old.id]});
+ assert.deepEqual(merged.sessions,old.sessions);assert.equal(merged.checkedAt,old.checkedAt);
+ const [cancelled]=reconcile([old],[{...event,status:'EventCancelled'}],{eventIds:[old.id]});
+ assert.equal(cancelled.status,'EventCancelled');
+ const corrupted={...old,checkedAt:event.checkedAt,sessions:event.sessions};
+ const extra={id:'other',end:'2026-11-08'};
+ const restored=mergePublished([corrupted,extra],[old],'2026-11-07');
+ assert.deepEqual(restored.find(e=>e.id===old.id).sessions,old.sessions);assert.ok(restored.some(e=>e.id==='other'));
+ assert.equal(mergePublished([cancelled],[old],'2026-11-07').find(e=>e.id===old.id).status,'EventCancelled');
+});
 test('extracts explicit structured dates, normalizes city, and ignores unsafe images',()=>{
  const [event]=extractEvents(html({...item,image:['javascript:alert(1)','https://example.org/photo.jpg']}),source,'2026-10-17T10:00:00Z');
  assert.equal(event.city,'臺北市');assert.equal(event.sessions[0].date,'2026-10-18');assert.equal(event.images.length,1);

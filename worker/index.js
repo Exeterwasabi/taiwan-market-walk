@@ -3,7 +3,7 @@ import {taipeiDate} from '../src/domain.js';
 import {extractEvents} from './extract.js';
 import {readEventZip} from './zip.js';
 import {normalize} from '../scripts/normalize.mjs';
-import {reconcile} from './reconcile.js';
+import {reconcile,mergePublished} from './reconcile.js';
 const site='https://exeterwasabi.github.io/taiwan-market-walk/';
 const allowed=new Set(['https://exeterwasabi.github.io','http://localhost:4173']);
 const json=(value,status=200)=>Response.json(value,{status,headers:{'Cache-Control':'no-store'}});
@@ -49,7 +49,7 @@ export class MarketStore {
    const byUrl=new Map(previousSources.map(s=>[s.url,s]));
    for(const source of registry.sources)byUrl.set(source.url,{...byUrl.get(source.url),...source});
    const sources=[...byUrl.values()];
-   const events=mergeEvents(old?.events||[],published.events);
+   const events=mergePublished(old?.events||[],published.events);
    const fixed=mergeSources(sources,events);
    job={id:crypto.randomUUID(),state:'running',startedAt:new Date().toISOString(),queryDate:taipeiDate(),done:0,total:fixed.length,added:0,parsed:0,review:0,failed:0};
    this.write({snapshot:{...published,events},sources:fixed,job});
