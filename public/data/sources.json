@@ -3265,6 +3265,78 @@
         "連江縣"
       ],
       "adapter": "announcement"
+    },
+    {
+      "id": "source-273",
+      "url": "https://www.expopark.taipei/News_Content.aspx?n=91&s=4620",
+      "label": "臺北市政府產業發展局",
+      "eventIds": [
+        "review-expo-20261114"
+      ],
+      "cities": [
+        "臺北市"
+      ],
+      "adapter": "announcement"
+    },
+    {
+      "id": "source-274",
+      "url": "https://ezgo.ardswc.gov.tw/zh-tw/event/5550/",
+      "label": "臺南市安定區公所／安定區農會",
+      "eventIds": [
+        "review-anding-20261114"
+      ],
+      "cities": [
+        "臺南市"
+      ],
+      "adapter": "announcement"
+    },
+    {
+      "id": "source-275",
+      "url": "https://www.acgf.org.tw/Home/NewsDetail/4280",
+      "label": "三星地區農會",
+      "eventIds": [
+        "review-sanxing-20261114"
+      ],
+      "cities": [
+        "宜蘭縣"
+      ],
+      "adapter": "announcement"
+    },
+    {
+      "id": "source-276",
+      "url": "https://www.forest.gov.tw/Index/news/0079391",
+      "label": "林業及自然保育署南投分署／奧萬大國家森林遊樂區",
+      "eventIds": [
+        "review-aowanda-20261114"
+      ],
+      "cities": [
+        "南投縣"
+      ],
+      "adapter": "announcement"
+    },
+    {
+      "id": "source-277",
+      "url": "https://aowandaconcert.kktix.cc/events/2026aowanda",
+      "label": "林業及自然保育署南投分署／奧萬大國家森林遊樂區",
+      "eventIds": [
+        "review-aowanda-20261114"
+      ],
+      "cities": [
+        "南投縣"
+      ],
+      "adapter": "announcement"
+    },
+    {
+      "id": "source-278",
+      "url": "https://admin.taiwan.net.tw/erv-nsa/NewsErv/News?a=975&id=36646",
+      "label": "交通部觀光署花東縱谷國家風景區管理處",
+      "eventIds": [
+        "review-valley-20261114"
+      ],
+      "cities": [
+        "花蓮縣"
+      ],
+      "adapter": "announcement"
     }
   ]
 }
