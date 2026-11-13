@@ -3337,6 +3337,54 @@
         "花蓮縣"
       ],
       "adapter": "announcement"
+    },
+    {
+      "id": "source-279",
+      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel?Keyword=%E9%98%BF%E7%BD%A9%E9%9C%A7%E8%8D%89%E5%9C%B0%E9%9F%B3%E6%A8%82%E6%9C%83",
+      "label": "來源未提供",
+      "eventIds": [
+        "Event_387000000A_010466"
+      ],
+      "cities": [
+        "臺中市"
+      ],
+      "adapter": "announcement"
+    },
+    {
+      "id": "source-280",
+      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel?Keyword=2026%E9%AB%98%E6%B5%81%E8%81%96%E8%AA%95%E8%B6%B4",
+      "label": "來源未提供",
+      "eventIds": [
+        "Event_397000000A_008188"
+      ],
+      "cities": [
+        "高雄市"
+      ],
+      "adapter": "announcement"
+    },
+    {
+      "id": "source-281",
+      "url": "https://www.matsu.idv.tw/topicdetail.php?f=159&t=346631",
+      "label": "馬祖青年發展協會",
+      "eventIds": [
+        "review-matsu-island-20261114"
+      ],
+      "cities": [
+        "連江縣"
+      ],
+      "adapter": "announcement"
+    },
+    {
+      "id": "source-282",
+      "url": "https://khvillages.kcg.gov.tw/ActivityInfo/c000003?ID=e48c2172-53aa-4c0e-8eee-11b0f86a5aab&PageIndex=1&PageType=1",
+      "label": "高雄眷村／高雄市政府文化局",
+      "eventIds": [
+        "review-huangpu-coffee-20261114"
+      ],
+      "cities": [
+        "高雄市"
+      ],
+      "adapter": "announcement"
     }
   ]
 }

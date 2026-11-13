@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-10T03:18:06.853Z",
+  "checkedAt": "2026-11-13T03:13:31.887Z",
   "scope": "2026-11-14/2026-11-15",
   "note": "人工核對公告中的場次，不代表現場查證；每日匯入不會自動延長場次或刷新人工查核時間。",
   "events": [
@@ -1859,6 +1859,58 @@
       "images": [],
       "type": "假日市集",
       "checkedAt": "2026-11-10T03:18:06.853Z",
+      "verification": "announcement",
+      "status": "EventScheduled"
+    },
+    {
+      "id": "review-matsu-island-20261114",
+      "name": "2026馬祖語國家語言生活節｜島嶼好市",
+      "city": "連江縣",
+      "type": "假日／特色市集",
+      "address": "連江縣南竿鄉媽祖園區廣場（無事SEESEA／小柒咖啡）",
+      "organizer": "馬祖青年發展協會",
+      "source": "https://www.matsu.idv.tw/topicdetail.php?f=159&t=346631",
+      "sessions": [
+        {
+          "date": "2026-11-14",
+          "time": "14:00–20:00"
+        }
+      ],
+      "evidence": "主辦協會11/12發布2026公告，明列11/14、14–20時；當期攤位配置DM已目視核對年份、日期、時間及南竿媽祖園區廣場。",
+      "images": [
+        {
+          "url": "https://www.matsu.idv.tw/attach/matsu-2207e8f241003cc0b95e99ef5e226aad.jpeg",
+          "name": "2026島嶼好市當期攤位配置DM",
+          "kind": "dm"
+        }
+      ],
+      "checkedAt": "2026-11-13T03:13:31.887Z",
+      "description": "主辦協會11/12發布2026公告，明列11/14、14–20時；當期攤位配置DM已目視核對年份、日期、時間及南竿媽祖園區廣場。",
+      "verification": "announcement",
+      "status": "EventScheduled"
+    },
+    {
+      "id": "review-huangpu-coffee-20261114",
+      "name": "黃埔好村好事｜咖啡市集",
+      "city": "高雄市",
+      "type": "假日／特色市集",
+      "address": "高雄市鳳山區黃埔新村東一側草坪（中軸草地）",
+      "organizer": "高雄眷村／高雄市政府文化局",
+      "source": "https://khvillages.kcg.gov.tw/ActivityInfo/c000003?ID=e48c2172-53aa-4c0e-8eee-11b0f86a5aab&PageIndex=1&PageType=1",
+      "sessions": [
+        {
+          "date": "2026-11-14",
+          "time": "14:00–19:00"
+        },
+        {
+          "date": "2026-11-15",
+          "time": "14:00–19:00"
+        }
+      ],
+      "evidence": "文化局115/11/1月報的咖啡市集段落明列11/14–15、14–19時及東一側草坪；不將頁尾11/1–30的全月活動範圍套用為場次。海報讀取逾時，未當作已核實DM。",
+      "images": [],
+      "checkedAt": "2026-11-13T03:13:31.887Z",
+      "description": "文化局115/11/1月報的咖啡市集段落明列11/14–15、14–19時及東一側草坪；不將頁尾11/1–30的全月活動範圍套用為場次。海報讀取逾時，未當作已核實DM。",
       "verification": "announcement",
       "status": "EventScheduled"
     }
