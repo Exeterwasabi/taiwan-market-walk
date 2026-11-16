@@ -3385,6 +3385,90 @@
         "高雄市"
       ],
       "adapter": "announcement"
+    },
+    {
+      "id": "source-283",
+      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel?Keyword=2026%E9%87%91%E6%B2%99%E6%AD%A1%E6%A8%82%E8%81%96%E8%AA%95%C3%97%E6%99%82%E5%85%89%E7%B9%81%E6%98%9F%E5%81%87%E6%97%A5%E5%B8%82%E9%9B%86",
+      "label": "來源未提供",
+      "eventIds": [
+        "Event_371020000A_004243"
+      ],
+      "cities": [
+        "金門縣"
+      ],
+      "adapter": "announcement"
+    },
+    {
+      "id": "source-284",
+      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel?Keyword=%E8%88%88%E5%89%B5%E6%9D%91%E5%B8%82%E9%9B%86%EF%BD%9C%E5%BE%A9%E5%8F%A4%E6%B4%BE%E5%B0%8D",
+      "label": "來源未提供",
+      "eventIds": [
+        "Event_376420000A_000377"
+      ],
+      "cities": [
+        "宜蘭縣"
+      ],
+      "adapter": "announcement"
+    },
+    {
+      "id": "source-285",
+      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel?Keyword=%E5%85%89%E5%BE%A9%E5%A5%BD%E6%99%82%E5%85%89%E9%9F%B3%E6%A8%82%E5%B8%82%E9%9B%86",
+      "label": "來源未提供",
+      "eventIds": [
+        "Event_376550000A_001042"
+      ],
+      "cities": [
+        "花蓮縣"
+      ],
+      "adapter": "announcement"
+    },
+    {
+      "id": "source-286",
+      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel?Keyword=%E6%AF%9B%E8%B5%B7%E4%BE%86%E7%8E%A9%E6%96%87%E5%8C%96%EF%BD%9C%E6%AF%9B%E5%AD%A9%E9%87%8E%E9%A4%90%E5%B8%82%E9%9B%86",
+      "label": "來源未提供",
+      "eventIds": [
+        "Event_376550000A_001043"
+      ],
+      "cities": [
+        "花蓮縣"
+      ],
+      "adapter": "announcement"
+    },
+    {
+      "id": "source-287",
+      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel?Keyword=2026%E6%AF%9B%E5%AF%B6%E8%B2%9D%E5%A5%BD%E7%94%9F%E6%B4%BB%20%E5%8F%8B%E5%96%84%E8%80%B6%E8%AA%95%E8%B6%B4",
+      "label": "來源未提供",
+      "eventIds": [
+        "Event_382000000A_004104"
+      ],
+      "cities": [
+        "新北市"
+      ],
+      "adapter": "announcement"
+    },
+    {
+      "id": "source-288",
+      "url": "https://www.expopark.taipei/News_Content.aspx?n=91&s=4623",
+      "label": "臺北市政府產業發展局",
+      "eventIds": [
+        "review-expo-20261121"
+      ],
+      "cities": [
+        "臺北市"
+      ],
+      "adapter": "announcement"
+    },
+    {
+      "id": "source-289",
+      "url": "https://www.agrijourney.org/wind-table/",
+      "label": "上下游文化基金會／臺中國家歌劇院",
+      "eventIds": [
+        "review-windtable-20261121"
+      ],
+      "cities": [
+        "臺中市"
+      ],
+      "adapter": "announcement"
     }
   ]
 }
