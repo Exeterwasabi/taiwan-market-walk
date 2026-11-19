@@ -3469,6 +3469,90 @@
         "臺中市"
       ],
       "adapter": "announcement"
+    },
+    {
+      "id": "source-290",
+      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel?Keyword=%E8%8A%B1%E8%93%AE%E5%8D%97%E7%93%9C%E6%9A%A8%E5%8E%9F%E8%BE%B2%E5%A5%BD%E7%89%A9%E6%8E%A8%E5%BB%A3%E5%B8%82%E9%9B%86",
+      "label": "來源未提供",
+      "eventIds": [
+        "Event_376550000A_001045"
+      ],
+      "cities": [
+        "花蓮縣"
+      ],
+      "adapter": "announcement"
+    },
+    {
+      "id": "source-291",
+      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel?Keyword=%E8%8A%B1%E8%93%AE%E6%BC%81%E6%B8%AF%E3%80%8C%E8%80%8D%E6%B5%B7%E9%A2%A8%E3%80%8D%E2%80%94%E6%B5%B7%E9%A2%A8%E6%83%9C%E7%89%A9%E5%B8%82%E9%9B%86",
+      "label": "來源未提供",
+      "eventIds": [
+        "Event_376550000A_001046"
+      ],
+      "cities": [
+        "花蓮縣"
+      ],
+      "adapter": "announcement"
+    },
+    {
+      "id": "source-292",
+      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel?Keyword=2026%E8%8D%89%E5%B6%BA%E5%8F%A4%E9%81%93%E8%8A%92%E8%8A%B1%E5%AD%A3",
+      "label": "來源未提供",
+      "eventIds": [
+        "Event_382000000A_004080"
+      ],
+      "cities": [
+        "新北市"
+      ],
+      "adapter": "announcement"
+    },
+    {
+      "id": "source-293",
+      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel?Keyword=2026%E9%AB%98%E9%9B%84%E5%B2%A1%E5%B1%B1%E7%94%98%E5%91%B3%E7%A5%AD",
+      "label": "來源未提供",
+      "eventIds": [
+        "Event_397000000A_008207"
+      ],
+      "cities": [
+        "高雄市"
+      ],
+      "adapter": "announcement"
+    },
+    {
+      "id": "source-294",
+      "url": "https://www.cip.gov.tw/zh-tw/news/data-list/C78C8EAE23CC8989/611E3184C0EF3DECF1902311059684DE-info.html",
+      "label": "有限責任花蓮縣原住民農產運銷合作社",
+      "eventIds": [
+        "review-pumpkin-20261121"
+      ],
+      "cities": [
+        "花蓮縣"
+      ],
+      "adapter": "announcement"
+    },
+    {
+      "id": "source-295",
+      "url": "https://www.chcg.gov.tw/ch2/active.aspx?bull_id=441378",
+      "label": "彰化縣政府青年發展處",
+      "eventIds": [
+        "review-changhua-youth-20261121"
+      ],
+      "cities": [
+        "彰化縣"
+      ],
+      "adapter": "announcement"
+    },
+    {
+      "id": "source-296",
+      "url": "https://www.miaoli.gov.tw/general_affairs/News_Content.aspx?n=851&s=1015634&sms=9702",
+      "label": "公館鄉農會／苗栗縣政府",
+      "eventIds": [
+        "review-gongguan-20261121"
+      ],
+      "cities": [
+        "苗栗縣"
+      ],
+      "adapter": "announcement"
     }
   ]
 }

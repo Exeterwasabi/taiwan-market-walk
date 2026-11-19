@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-16T03:18:21.553Z",
+  "checkedAt": "2026-11-19T03:18:35.947Z",
   "scope": "2026-11-21/2026-11-22",
   "note": "人工核對公告中的場次，不代表現場查證；每日匯入不會自動延長場次或刷新人工查核時間。",
   "events": [
@@ -1961,6 +1961,90 @@
       "checkedAt": "2026-11-16T03:18:21.553Z",
       "description": "主辦2026專頁明列11/21–22每日10:30–18時及歌劇院四號門草地，市集免費；主題餐桌及手作另報名，不將餐桌費用當市集門票。",
       "images": [],
+      "verification": "announcement",
+      "status": "EventScheduled"
+    },
+    {
+      "id": "review-pumpkin-20261121",
+      "name": "花蓮南瓜暨原農好物推廣市集",
+      "city": "花蓮縣",
+      "address": "花蓮縣花蓮市遠東百貨和平廣場",
+      "organizer": "有限責任花蓮縣原住民農產運銷合作社",
+      "source": "https://www.cip.gov.tw/zh-tw/news/data-list/C78C8EAE23CC8989/611E3184C0EF3DECF1902311059684DE-info.html",
+      "type": "農夫市集",
+      "evidence": "原民會115/11/17公告與當期DM均明列11/21–22每日14–18時及和平廣場；15時是開幕及體驗券發放，不當市集開場。DM已目視核對年份、兩日、地點及時間。",
+      "images": [
+        {
+          "url": "https://www.cip.gov.tw/data/news/202611/T-57613654.jpg?s=EA806872CF67EC3D&c=5CA75D7B687245C428F1DED70A0185CD&fn=35139CA44FB052A9FDE90BA722D44E76",
+          "name": "115年花蓮南瓜暨原農好物推廣市集DM",
+          "kind": "dm"
+        }
+      ],
+      "sessions": [
+        {
+          "date": "2026-11-21",
+          "time": "14:00–18:00"
+        },
+        {
+          "date": "2026-11-22",
+          "time": "14:00–18:00"
+        }
+      ],
+      "checkedAt": "2026-11-19T03:18:35.947Z",
+      "description": "原民會115/11/17公告與當期DM均明列11/21–22每日14–18時及和平廣場；15時是開幕及體驗券發放，不當市集開場。DM已目視核對年份、兩日、地點及時間。",
+      "verification": "announcement",
+      "status": "EventScheduled",
+      "replaces": [
+        "Event_376550000A_001045"
+      ]
+    },
+    {
+      "id": "review-changhua-youth-20261121",
+      "name": "2026彰化青年創業嘉年華｜青創市集",
+      "city": "彰化縣",
+      "address": "彰化縣圓林園滯洪池生態公園",
+      "organizer": "彰化縣政府青年發展處",
+      "source": "https://www.chcg.gov.tw/ch2/active.aspx?bull_id=441378",
+      "type": "假日／特色市集",
+      "evidence": "縣府115/11/13公告明列11/21及22、11–18時、圓林園，40組青創品牌；發布期間11/13–22不當開市日期。",
+      "images": [],
+      "sessions": [
+        {
+          "date": "2026-11-21",
+          "time": "11:00–18:00"
+        },
+        {
+          "date": "2026-11-22",
+          "time": "11:00–18:00"
+        }
+      ],
+      "checkedAt": "2026-11-19T03:18:35.947Z",
+      "description": "縣府115/11/13公告明列11/21及22、11–18時、圓林園，40組青創品牌；發布期間11/13–22不當開市日期。",
+      "verification": "announcement",
+      "status": "EventScheduled"
+    },
+    {
+      "id": "review-gongguan-20261121",
+      "name": "2026公館芋頭福菜節｜農產品展售市集",
+      "city": "苗栗縣",
+      "address": "苗栗縣公館鄉苗栗陶瓷農創園區",
+      "organizer": "公館鄉農會／苗栗縣政府",
+      "source": "https://www.miaoli.gov.tw/general_affairs/News_Content.aspx?n=851&s=1015634&sms=9702",
+      "type": "農夫市集",
+      "evidence": "縣府115/11/17記者會公告明列11/21–22於苗栗陶瓷農創園區，農會說明兩天現場農產品展售。未列開市時段，保留未公告；不將11/17記者會或芋頭產季當場次。",
+      "images": [],
+      "sessions": [
+        {
+          "date": "2026-11-21",
+          "time": "市集時段請見主辦公告"
+        },
+        {
+          "date": "2026-11-22",
+          "time": "市集時段請見主辦公告"
+        }
+      ],
+      "checkedAt": "2026-11-19T03:18:35.947Z",
+      "description": "縣府115/11/17記者會公告明列11/21–22於苗栗陶瓷農創園區，農會說明兩天現場農產品展售。未列開市時段，保留未公告；不將11/17記者會或芋頭產季當場次。",
       "verification": "announcement",
       "status": "EventScheduled"
     }
