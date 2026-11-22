@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-19T03:18:35.947Z",
+  "checkedAt": "2026-11-22T03:17:00.294Z",
   "scope": "2026-11-21/2026-11-22",
   "note": "人工核對公告中的場次，不代表現場查證；每日匯入不會自動延長場次或刷新人工查核時間。",
   "events": [
@@ -2047,6 +2047,30 @@
       "description": "縣府115/11/17記者會公告明列11/21–22於苗栗陶瓷農創園區，農會說明兩天現場農產品展售。未列開市時段，保留未公告；不將11/17記者會或芋頭產季當場次。",
       "verification": "announcement",
       "status": "EventScheduled"
+    },
+    {
+      "id": "review-khh-coffee-20261122",
+      "name": "2026高雄咖啡節暨神農市集",
+      "city": "高雄市",
+      "type": "農夫市集",
+      "address": "高雄市鼓山區凹子底森林公園",
+      "organizer": "高雄市政府觀光局／農業局",
+      "source": "https://khh.travel/zh-tw/event/calendardetail/7806/",
+      "sessions": [
+        {
+          "date": "2026-11-22",
+          "time": "15:00–21:00"
+        }
+      ],
+      "evidence": "官方11/18更新的2026公告明列11/21、22各15–21時及凹子底森林公園，結合神農市集；本次僅加入未過期11/22。搜尋到8月取消公告為不同檔期，不能套用本週。",
+      "description": "咖啡、烘焙與在地農產市集；依11/18官方公告核對本週日期。",
+      "checkedAt": "2026-11-22T03:17:00.294Z",
+      "verification": "announcement",
+      "status": "EventScheduled",
+      "images": [],
+      "replaces": [
+        "Event_397000000A_007806"
+      ]
     }
   ]
 }

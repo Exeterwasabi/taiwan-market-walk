@@ -3553,6 +3553,42 @@
         "苗栗縣"
       ],
       "adapter": "announcement"
+    },
+    {
+      "id": "source-297",
+      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel?Keyword=115%E5%B9%B4%E5%86%AC%E5%AD%A3%E6%96%B0%E5%8C%97%E5%A5%BD%E8%8C%B6",
+      "label": "來源未提供",
+      "eventIds": [
+        "Event_382000000A_004116"
+      ],
+      "cities": [
+        "新北市"
+      ],
+      "adapter": "announcement"
+    },
+    {
+      "id": "source-298",
+      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel?Keyword=2026%E5%8F%B0%E5%8D%97%E8%81%96%E8%AA%95%E7%87%88%E7%AF%80",
+      "label": "來源未提供",
+      "eventIds": [
+        "Event_395000000A_007632"
+      ],
+      "cities": [
+        "臺南市"
+      ],
+      "adapter": "announcement"
+    },
+    {
+      "id": "source-299",
+      "url": "https://khh.travel/zh-tw/event/calendardetail/7806/",
+      "label": "高雄市政府觀光局／農業局",
+      "eventIds": [
+        "review-khh-coffee-20261122"
+      ],
+      "cities": [
+        "高雄市"
+      ],
+      "adapter": "announcement"
     }
   ]
 }
