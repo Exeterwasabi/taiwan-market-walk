@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-11-22T03:17:00.294Z",
-  "scope": "2026-11-21/2026-11-22",
+  "checkedAt": "2026-11-25T03:15:47.997Z",
+  "scope": "2026-11-28/2026-11-29",
   "note": "人工核對公告中的場次，不代表現場查證；每日匯入不會自動延長場次或刷新人工查核時間。",
   "events": [
     {
@@ -2071,6 +2071,116 @@
       "replaces": [
         "Event_397000000A_007806"
       ]
+    },
+    {
+      "id": "review-expo-20261128",
+      "name": "臺北花博農民市集｜11/28–29",
+      "city": "臺北市",
+      "type": "農夫市集",
+      "address": "臺北市花博公園圓山園區長廊廣場",
+      "organizer": "臺北市政府產業發展局",
+      "source": "https://www.expopark.taipei/News_Content.aspx?n=91&s=4626&sms=9004",
+      "sessions": [
+        {
+          "date": "2026-11-28",
+          "time": "10:00–18:00"
+        },
+        {
+          "date": "2026-11-29",
+          "time": "10:00–18:00"
+        }
+      ],
+      "evidence": "場館2026年第48週公告明列11/28、29農民市集在長廊廣場，兩日10–18時；不是依固定週期推算。",
+      "checkedAt": "2026-11-25T03:15:47.997Z",
+      "images": [],
+      "description": "場館2026年第48週公告明列11/28、29農民市集在長廊廣場，兩日10–18時；不是依固定週期推算。",
+      "verification": "announcement",
+      "status": "EventScheduled"
+    },
+    {
+      "id": "review-rice-20261128",
+      "name": "一粒米的時代行旅—蓬萊米百年特展暨市集",
+      "city": "臺北市",
+      "type": "農夫市集",
+      "address": "臺北市中正區八德路一段1號，華山1914東2C及東2D館",
+      "organizer": "農業部農糧署",
+      "source": "https://www.tsaotun.org.tw/news_detail.asp?cat=0&deid=2213",
+      "sessions": [
+        {
+          "date": "2026-11-28",
+          "time": "12:00–19:00"
+        },
+        {
+          "date": "2026-11-29",
+          "time": "11:00–18:00"
+        }
+      ],
+      "evidence": "草屯鎮農會2026/11/23轉發農糧署公文，明列115年11/28–29各日時段與華山地址，並明列37家米糧市集。不是在南投舉辦。目視核對當期DM的2026年份、兩日與場館。",
+      "images": [
+        {
+          "url": "https://www.tsaotun.org.tw/upload/news//20261123101148.jpg",
+          "name": "2026蓬萊米百年特展暨市集DM（農會公告原圖）",
+          "kind": "dm"
+        }
+      ],
+      "checkedAt": "2026-11-25T03:15:47.997Z",
+      "description": "草屯鎮農會2026/11/23轉發農糧署公文，明列115年11/28–29各日時段與華山地址，並明列37家米糧市集。不是在南投舉辦。目視核對當期DM的2026年份、兩日與場館。",
+      "verification": "announcement",
+      "status": "EventScheduled"
+    },
+    {
+      "id": "review-ntpc-christmas-20261127",
+      "name": "2026新北耶誕市集 X 亞洲電子競技公開賽",
+      "city": "新北市",
+      "type": "假日／特色市集",
+      "address": "新北市板橋區中山路一段161號，新北市市民廣場",
+      "organizer": "新北市政府經濟發展局",
+      "source": "https://www.shimen.ntpc.gov.tw/home.jsp?act=be4f48068b2b0031&dataserno=bc0b29b4669ba276e48e40874db2d821&id=f63b498d6f5fb095",
+      "sessions": [
+        {
+          "date": "2026-11-27",
+          "time": "11:00–22:00"
+        },
+        {
+          "date": "2026-11-28",
+          "time": "11:00–22:00"
+        },
+        {
+          "date": "2026-11-29",
+          "time": "11:00–22:00"
+        }
+      ],
+      "evidence": "石門區公所2026/11/11公告明列市集三日每日11–22時及板橋市民廣場地址；不把17:35開幕或13:30電競開賽當市集開場。",
+      "checkedAt": "2026-11-25T03:15:47.997Z",
+      "images": [],
+      "description": "石門區公所2026/11/11公告明列市集三日每日11–22時及板橋市民廣場地址；不把17:35開幕或13:30電競開賽當市集開場。",
+      "verification": "announcement",
+      "status": "EventScheduled"
+    },
+    {
+      "id": "review-ifg-20261128",
+      "name": "聖誕序曲-冬日暖暖節市集",
+      "city": "新竹市",
+      "type": "假日／特色市集",
+      "address": "新竹市北區湳雅里大雅路88號，IFG遠雄廣場新竹店",
+      "organizer": "圈圈市集 Circle Market",
+      "source": "https://circle-market.com/markets/ifg-20261128",
+      "sessions": [
+        {
+          "date": "2026-11-28",
+          "time": "12:00–20:00"
+        },
+        {
+          "date": "2026-11-29",
+          "time": "12:00–20:00"
+        }
+      ],
+      "evidence": "主辦場次頁明列2026-11-28至29兩日12–20時及大雅路88號；招募截止時間不當開市時段。",
+      "checkedAt": "2026-11-25T03:15:47.997Z",
+      "images": [],
+      "description": "主辦場次頁明列2026-11-28至29兩日12–20時及大雅路88號；招募截止時間不當開市時段。",
+      "verification": "announcement",
+      "status": "EventScheduled"
     }
   ]
 }

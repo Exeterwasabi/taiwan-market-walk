@@ -3589,6 +3589,90 @@
         "高雄市"
       ],
       "adapter": "announcement"
+    },
+    {
+      "id": "source-300",
+      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel?Keyword=2026%E9%A6%AC%E5%88%B0%E6%88%90%E5%8A%9F%E3%83%BB%E9%81%94%E4%BA%BA%E5%B8%B6%E8%B7%AF",
+      "label": "來源未提供",
+      "eventIds": [
+        "Event_376540000A_006548"
+      ],
+      "cities": [
+        "臺東縣"
+      ],
+      "adapter": "announcement"
+    },
+    {
+      "id": "source-301",
+      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel?Keyword=2026%E5%BE%8C%E5%A3%81%E9%AB%98%E4%B8%AD%E8%97%9D%E8%A1%93%E5%AD%A3",
+      "label": "來源未提供",
+      "eventIds": [
+        "Event_395000000A_008169"
+      ],
+      "cities": [
+        "臺南市"
+      ],
+      "adapter": "announcement"
+    },
+    {
+      "id": "source-302",
+      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel?Keyword=2026%E9%AB%98%E9%9B%84%E8%81%96%E8%AA%95%E7%94%9F%E6%B4%BB%E7%AF%80",
+      "label": "來源未提供",
+      "eventIds": [
+        "Event_397000000A_008235"
+      ],
+      "cities": [
+        "高雄市"
+      ],
+      "adapter": "announcement"
+    },
+    {
+      "id": "source-303",
+      "url": "https://www.expopark.taipei/News_Content.aspx?n=91&s=4626&sms=9004",
+      "label": "臺北市政府產業發展局",
+      "eventIds": [
+        "review-expo-20261128"
+      ],
+      "cities": [
+        "臺北市"
+      ],
+      "adapter": "announcement"
+    },
+    {
+      "id": "source-304",
+      "url": "https://www.tsaotun.org.tw/news_detail.asp?cat=0&deid=2213",
+      "label": "農業部農糧署",
+      "eventIds": [
+        "review-rice-20261128"
+      ],
+      "cities": [
+        "臺北市"
+      ],
+      "adapter": "announcement"
+    },
+    {
+      "id": "source-305",
+      "url": "https://www.shimen.ntpc.gov.tw/home.jsp?act=be4f48068b2b0031&dataserno=bc0b29b4669ba276e48e40874db2d821&id=f63b498d6f5fb095",
+      "label": "新北市政府經濟發展局",
+      "eventIds": [
+        "review-ntpc-christmas-20261127"
+      ],
+      "cities": [
+        "新北市"
+      ],
+      "adapter": "announcement"
+    },
+    {
+      "id": "source-306",
+      "url": "https://circle-market.com/markets/ifg-20261128",
+      "label": "圈圈市集 Circle Market",
+      "eventIds": [
+        "review-ifg-20261128"
+      ],
+      "cities": [
+        "新竹市"
+      ],
+      "adapter": "announcement"
     }
   ]
 }
