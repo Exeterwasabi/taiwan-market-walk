@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-25T03:15:47.997Z",
+  "checkedAt": "2026-11-28T10:40:12.973Z",
   "scope": "2026-11-28/2026-11-29",
   "note": "人工核對公告中的場次，不代表現場查證；每日匯入不會自動延長場次或刷新人工查核時間。",
   "events": [
@@ -2179,6 +2179,182 @@
       "checkedAt": "2026-11-25T03:15:47.997Z",
       "images": [],
       "description": "主辦場次頁明列2026-11-28至29兩日12–20時及大雅路88號；招募截止時間不當開市時段。",
+      "verification": "announcement",
+      "status": "EventScheduled"
+    },
+    {
+      "id": "review-px-20261128-0",
+      "name": "大全聯暖心小農市集｜內湖店",
+      "city": "臺北市",
+      "address": "臺北市內湖區舊宗路一段188號",
+      "type": "農夫市集",
+      "organizer": "大全聯 MEGA PXMART",
+      "source": "https://www.pxmart.com.tw/mega/campaign/latest-campaign/%E5%B0%8F%E8%BE%B2%E5%B8%82%E9%9B%86",
+      "sessions": [
+        {
+          "date": "2026-11-28",
+          "time": "11:00–19:00"
+        },
+        {
+          "date": "2026-11-29",
+          "time": "11:00–19:00"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://www.pxmart.com.tw/mega/uploads/02_2_c8b9cea80b.webp",
+          "name": "11月小農市集DIY場次DM（DIY另計費）",
+          "kind": "dm"
+        }
+      ],
+      "evidence": "主辦當期活動頁明列2026/11/21–22、11/28–29 11–19時及五店；只加入未過期兩日。目視當期DIY圖確認五店日期，DIY報名截止不當市集日。四店地址沿用既有查核，忠孝店另讀主辦門市頁確認新竹市忠孝路300號。",
+      "description": "主辦當期活動頁明列2026/11/21–22、11/28–29 11–19時及五店；只加入未過期兩日。目視當期DIY圖確認五店日期，DIY報名截止不當市集日。四店地址沿用既有查核，忠孝店另讀主辦門市頁確認新竹市忠孝路300號。",
+      "checkedAt": "2026-11-28T10:40:12.973Z",
+      "verification": "announcement",
+      "status": "EventScheduled"
+    },
+    {
+      "id": "review-px-20261128-1",
+      "name": "大全聯暖心小農市集｜員林店",
+      "city": "彰化縣",
+      "address": "彰化縣埔心鄉瓦南村中山路319號",
+      "type": "農夫市集",
+      "organizer": "大全聯 MEGA PXMART",
+      "source": "https://www.pxmart.com.tw/mega/campaign/latest-campaign/%E5%B0%8F%E8%BE%B2%E5%B8%82%E9%9B%86",
+      "sessions": [
+        {
+          "date": "2026-11-28",
+          "time": "11:00–19:00"
+        },
+        {
+          "date": "2026-11-29",
+          "time": "11:00–19:00"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://www.pxmart.com.tw/mega/uploads/02_2_c8b9cea80b.webp",
+          "name": "11月小農市集DIY場次DM（DIY另計費）",
+          "kind": "dm"
+        }
+      ],
+      "evidence": "主辦當期活動頁明列2026/11/21–22、11/28–29 11–19時及五店；只加入未過期兩日。目視當期DIY圖確認五店日期，DIY報名截止不當市集日。四店地址沿用既有查核，忠孝店另讀主辦門市頁確認新竹市忠孝路300號。",
+      "description": "主辦當期活動頁明列2026/11/21–22、11/28–29 11–19時及五店；只加入未過期兩日。目視當期DIY圖確認五店日期，DIY報名截止不當市集日。四店地址沿用既有查核，忠孝店另讀主辦門市頁確認新竹市忠孝路300號。",
+      "checkedAt": "2026-11-28T10:40:12.973Z",
+      "verification": "announcement",
+      "status": "EventScheduled"
+    },
+    {
+      "id": "review-px-20261128-2",
+      "name": "大全聯暖心小農市集｜中壢店",
+      "city": "桃園市",
+      "address": "桃園市中壢區中北路2段468號",
+      "type": "農夫市集",
+      "organizer": "大全聯 MEGA PXMART",
+      "source": "https://www.pxmart.com.tw/mega/campaign/latest-campaign/%E5%B0%8F%E8%BE%B2%E5%B8%82%E9%9B%86",
+      "sessions": [
+        {
+          "date": "2026-11-28",
+          "time": "11:00–19:00"
+        },
+        {
+          "date": "2026-11-29",
+          "time": "11:00–19:00"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://www.pxmart.com.tw/mega/uploads/02_2_c8b9cea80b.webp",
+          "name": "11月小農市集DIY場次DM（DIY另計費）",
+          "kind": "dm"
+        }
+      ],
+      "evidence": "主辦當期活動頁明列2026/11/21–22、11/28–29 11–19時及五店；只加入未過期兩日。目視當期DIY圖確認五店日期，DIY報名截止不當市集日。四店地址沿用既有查核，忠孝店另讀主辦門市頁確認新竹市忠孝路300號。",
+      "description": "主辦當期活動頁明列2026/11/21–22、11/28–29 11–19時及五店；只加入未過期兩日。目視當期DIY圖確認五店日期，DIY報名截止不當市集日。四店地址沿用既有查核，忠孝店另讀主辦門市頁確認新竹市忠孝路300號。",
+      "checkedAt": "2026-11-28T10:40:12.973Z",
+      "verification": "announcement",
+      "status": "EventScheduled"
+    },
+    {
+      "id": "review-px-20261128-3",
+      "name": "大全聯暖心小農市集｜嘉義店",
+      "city": "嘉義市",
+      "address": "嘉義市西區博愛路2段281號",
+      "type": "農夫市集",
+      "organizer": "大全聯 MEGA PXMART",
+      "source": "https://www.pxmart.com.tw/mega/campaign/latest-campaign/%E5%B0%8F%E8%BE%B2%E5%B8%82%E9%9B%86",
+      "sessions": [
+        {
+          "date": "2026-11-28",
+          "time": "11:00–19:00"
+        },
+        {
+          "date": "2026-11-29",
+          "time": "11:00–19:00"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://www.pxmart.com.tw/mega/uploads/02_2_c8b9cea80b.webp",
+          "name": "11月小農市集DIY場次DM（DIY另計費）",
+          "kind": "dm"
+        }
+      ],
+      "evidence": "主辦當期活動頁明列2026/11/21–22、11/28–29 11–19時及五店；只加入未過期兩日。目視當期DIY圖確認五店日期，DIY報名截止不當市集日。四店地址沿用既有查核，忠孝店另讀主辦門市頁確認新竹市忠孝路300號。",
+      "description": "主辦當期活動頁明列2026/11/21–22、11/28–29 11–19時及五店；只加入未過期兩日。目視當期DIY圖確認五店日期，DIY報名截止不當市集日。四店地址沿用既有查核，忠孝店另讀主辦門市頁確認新竹市忠孝路300號。",
+      "checkedAt": "2026-11-28T10:40:12.973Z",
+      "verification": "announcement",
+      "status": "EventScheduled"
+    },
+    {
+      "id": "review-px-20261128-4",
+      "name": "大全聯暖心小農市集｜忠孝店",
+      "city": "新竹市",
+      "address": "新竹市東區忠孝路300號",
+      "type": "農夫市集",
+      "organizer": "大全聯 MEGA PXMART",
+      "source": "https://www.pxmart.com.tw/mega/campaign/latest-campaign/%E5%B0%8F%E8%BE%B2%E5%B8%82%E9%9B%86",
+      "sessions": [
+        {
+          "date": "2026-11-28",
+          "time": "11:00–19:00"
+        },
+        {
+          "date": "2026-11-29",
+          "time": "11:00–19:00"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://www.pxmart.com.tw/mega/uploads/02_2_c8b9cea80b.webp",
+          "name": "11月小農市集DIY場次DM（DIY另計費）",
+          "kind": "dm"
+        }
+      ],
+      "evidence": "主辦當期活動頁明列2026/11/21–22、11/28–29 11–19時及五店；只加入未過期兩日。目視當期DIY圖確認五店日期，DIY報名截止不當市集日。四店地址沿用既有查核，忠孝店另讀主辦門市頁確認新竹市忠孝路300號。",
+      "description": "主辦當期活動頁明列2026/11/21–22、11/28–29 11–19時及五店；只加入未過期兩日。目視當期DIY圖確認五店日期，DIY報名截止不當市集日。四店地址沿用既有查核，忠孝店另讀主辦門市頁確認新竹市忠孝路300號。",
+      "checkedAt": "2026-11-28T10:40:12.973Z",
+      "verification": "announcement",
+      "status": "EventScheduled"
+    },
+    {
+      "id": "review-yunlin-high-20261129",
+      "name": "樂享永續・High玩樂章｜良菜×香菜市集",
+      "city": "雲林縣",
+      "address": "雲林縣虎尾鎮環保大樓景觀公園，學府路與學府西路交叉路口",
+      "type": "假日／特色市集",
+      "organizer": "雲林縣環境保護局",
+      "source": "https://www.ylepb.gov.tw/latestevent/index-1.asp?Parser=9,3,16,,,,2095",
+      "sessions": [
+        {
+          "date": "2026-11-29",
+          "time": "14:00–19:00"
+        }
+      ],
+      "images": [],
+      "evidence": "環保局2026/11/17公告明列115年11/29與場地；正文指定市集14時開始、19時結束，整體活動20:30結束不可套用。",
+      "description": "環保局2026/11/17公告明列115年11/29與場地；正文指定市集14時開始、19時結束，整體活動20:30結束不可套用。",
+      "checkedAt": "2026-11-28T10:40:12.973Z",
       "verification": "announcement",
       "status": "EventScheduled"
     }
